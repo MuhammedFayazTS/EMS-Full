@@ -1,0 +1,36 @@
+
+                        EMS Frontend
+                ---------------------------
+        1. Create a new project- npx create-react-app ems-frontend 
+        2. cd ems-frontend
+        3.clear the unwanted codes
+        5.Run the project - npm start
+        6.Install the 3rd party libraries
+             ->MDB bootstrap -npm i mdb-react-ui-kit
+             {
+                Add the following lines in your index.js file before the App.js file import:
+                -->import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+                -->import "@fortawesome/fontawesome-free/css/all.min.css";
+             }
+             ->font awesome -npm i @fortawesome/fontawesome-free
+             ->react bootstrap -npm install react-bootstrap bootstrap
+             ->google fonts          
+        7. Component creation
+            -->Admin.jsx
+            -->Add.jsx
+            -->Edit.jsx
+            -->View.jsx
+            -->PageNotFound.jsx
+            -->Header.jsx
+            -->Footer.jsx
+        8. Path Set
+            --> Install React-router-dom - npm i react-router-dom
+                --BrowserRouter
+                --Routes
+                --Route  
+        10. Page Designing
+            -->Header          
+            -->Admin Page
+            -->Footer
+        11. API CAll
+            -->Install Axios - npm i axios    

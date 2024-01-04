@@ -1,0 +1,25 @@
+/ems-backend/node_modules
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+ems-frontend/node_modules
+ems-frontend/.pnp
+ems-frontend/.pnp.js
+
+# testing
+ems-frontend/coverage
+
+# production
+ems-frontend/build
+
+# misc
+ems-frontend/.DS_Store
+ems-frontend/.env.local
+ems-frontend/.env.development.local
+ems-frontend/.env.test.local
+ems-frontend/.env.production.local
+
+ems-frontend/npm-debug.log*
+ems-frontend/yarn-debug.log*
+ems-frontend/yarn-error.log*
